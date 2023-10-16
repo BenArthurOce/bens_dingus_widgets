@@ -1,0 +1,22 @@
+
+.input-group {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.minus-button {
+    width: 30px;
+    height: 30px;
+}
+
+.plus-button {
+    width: 30px;
+    height: 30px;
+}
+
+.num-box {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}
+

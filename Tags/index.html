@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Dingus Tags" content="Dingus Tags">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ben Arthur">
+    <link rel="stylesheet" href="style.css">
+    <link rel="js" href="javascript.js">
+    <title>Dingus Tags</title>
+</head>
+
+<body>
+	<header>
+		<h1>Dingus Tags</h1>
+	</header>
+
+	<section>
+		<h3>What did you do today?</h3>
+		<p> Select from set tags, or input your own:</p>
+
+		<!-- ComboBox for set Activities -->
+		<select id="tag-select-dropdown">
+			<option value="Cooked">Cooked</option>
+			<option value="Cleaned">Cleaned</option>
+			<option value="Exercised">Exercised</option>
+			<option value="Applied for Job">Applied for Job</option>
+			<option value="Worked at Job">Worked at Job</option>
+		</select> <br><br>
+
+		<!-- Input textbox for custom Activities -->
+		<input type="text" id="tag-input-textbox" placeholder="Add tag">
+		<button id="add-tag-btn">Add</button>
+		<ul id="tag-list-display"></ul>
+	</section>
+
+
+	<footer>
+		<p>You can click on a tag to delete it.</p>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="script.js"></script> 
+	
+</body>
+</html>
